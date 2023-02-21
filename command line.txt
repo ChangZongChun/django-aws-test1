@@ -1,0 +1,21 @@
+build virtual environment
+| install virtualenv, python 3.6 以上內建
+|   > pip3 list
+|   > python pip install virtualenv
+|   > python3 -m venv djangoenv
+| activate for windows
+|   > .\djangoenv\Scripts\Activate.bat
+| activate for windows and vscode
+|   > .\djangoenv\Scripts\Activate.ps1
+| actuvate for linux
+|   > source djangoenv/bin.activate
+| deactivate virtual emvironment
+|   > deactivate
+start django project
+|   > django-admin startproject main_app
+test django project
+|   > cd main_app
+|   > python3 manage.py runserver
+build sub app
+|   > cd main_app
+|   > python manage.py startapp sub_app
